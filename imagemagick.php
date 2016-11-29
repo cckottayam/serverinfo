@@ -7,6 +7,7 @@ function alist ($array) {
   for ($i = 0; $i < sizeof($array); $i++) {
     $alist .= "<li>$array[$i]";
   }
+  echo 'jhg';
   $alist .= "</ul>";
 
   return $alist;
