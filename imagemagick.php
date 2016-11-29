@@ -8,6 +8,7 @@ function alist ($array) {
     $alist .= "<li>$array[$i]";
   }
   $alist .= "</ul>";
+  echo 'tried';
   return $alist;
 }
 //Try to get ImageMagick "convert" program version number.
