@@ -1,5 +1,6 @@
 <?php
 //This function prints a text array as an html list.
+//gr8888888888888888
 function alist ($array) {  
   $alist = "<ul>";
   for ($i = 0; $i < sizeof($array); $i++) {
